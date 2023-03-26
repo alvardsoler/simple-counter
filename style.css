@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+}
+body {
+    background-color: #d0d0d0;
+    overflow: hidden;
+}
+
+@media (hover:hover) {
+    button:hover {
+        color: green;
+    }
+}
+
+.container {
+    width: 20em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    height: 100% !important;
+}
+
+.half-height {
+    height: 50%;
+}
+
+.text {
+    font-size: 3em;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button {
+    height: 3em;
+    width: 3em;
+    font-size: 2em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
