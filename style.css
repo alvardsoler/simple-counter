@@ -2,13 +2,17 @@ html, body {
     height: 100%;
 }
 body {
-    background-color: #d0d0d0;
+    background-color: #212121;
     overflow: hidden;
+}
+
+button, body {
+    color: #e0e0e0;
 }
 
 @media (hover:hover) {
     button:hover {
-        color: green;
+        color: #388e3c;
     }
 }
 
